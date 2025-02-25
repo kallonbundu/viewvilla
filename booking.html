@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain View Villa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="booking-container">
+        <h1>Book Your Appointment</h1>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+        <div class="contact-info">
+            <p>Contact us:</p>
+            <a href="tel:+23278551458">+232 78 551458</a>
+            <a href="mailto:mountainviewvilla96@gmail.com">mountainviewvilla96@gmail.com</a>
+        </div>
+        <div>
+            
+            <a href="https://maps.app.goo.gl/e2PafQpBm4RtHwxd9" target="_blank" rel="noopener" class="google-maps-link">Click to View Location on Google Maps for Perfect Direction➡️</a>
+        </div>
+    </div>
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+      var wa_btnSetting = {"btnColor":"rgb(63, 251, 110)","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"23278551458","welcomeMessage":"Hello,\nMountain View Villa.","zIndex":999999,"btnColorScheme":"light"};
+      window.onload = () => {
+        _waEmbed(wa_btnSetting);
+      };
+    </script>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .booking-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="time"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #218838;
+        }
+        
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .contact-info a {
+            display: block;
+            margin: 5px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>
